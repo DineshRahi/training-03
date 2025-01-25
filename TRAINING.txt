@@ -1,0 +1,175 @@
+DAY-01
+
+what is git?
+-GIT is a version control system which is used to track changes in the files/folders.
+-GIT is also used to collaborate within the team.
+-GIT is open-source and free to use.
+-when multiple developers are working together git provides a collaboration between them.
+
+what is GITHUB?
+- GITHUB is a website to upload your repositories online.
+- GITHUB is used to store codes/data permanently.
+- GITHUB provides backup's.
+- GITHUB provides visual interface of your repo's.
+- GITHUB makes collaboration easier.
+
+installation of git and GitHub:-
+
+intsllation of git and GitHub.
+*****************************
+GIT ->  https://git-scm.com/downloads/win
+
+GITHUB ->https://github.com/
+- create account -> email -> password -> username ->
+
+puzzle -> create for free -> login
+
+-> create new repository -> repo name -> public -> create repository.
+
+- we have to work on pushing and pulling the code into repo by using "GIT COMMANDS".
+
+
+- before pushing and pulling the code for the very firsttime in GIt ,
+- we have to configure the settings like email & username.
+
+- git config --global user.email "example@gmail.com"
+
+- git config --global user.name "username"
+
+
+commands:-
+***********
+git init :- this command initialize the repository in the local machine.
+- once repo inttilized all the files inside the folder will be in untracked files list.
+
+git status :- to check the status of the changes in the file/folder
+
+git add filename:- to add the untracked file to stagin area(tracked files).
+- when we have multiple file for tracking we use the command called "git add ."
+- once we use thid above command all untracked files become tracked files and they are ready to push into remote repo.
+
+ git commit -m "message":- this command is used to write commit messages for the changes done for the files.
+
+git push:- it is used to push the tracked files from local repo to remote repo.
+1.  git remote add origin "url of the remoterepo"
+2.  git push -u origin master
+
+git log:- this command is used to see the log history.
+
+note:- once we push the code to the remote repo and again if we made some changes in the file that changes will not update directly on the remote repo.
+	we have to commit again and we have to push it agin to remote repo by using commands like git add . , git commit  , git push.
+
+git clone:-it is used to clone the copy of repo into local ,machine
+Day-1
+1.create a new folder on desktop.
+2.clone the repo by using command called
+- git init
+- git clone urloftherepo
+-navigate to git folder
+- cd foldername
+
+- make changes to the files / add new file then
+- git add .
+- git commit - m "msg"
+- git push -u origin master
+
+DAY-02
+
+what is GitHub?
+- Git hub is a website which is used to store the data permanently.
+- it also gives us collaboration.
+- it gives visual experience of the repositories.
+
+what is GIT?
+- GIT is a version control system used to track the changes in the files/folders.
+
+
+-Git commands
+
+1. git init - initialize the empty git repository in the local machine.
+2. git add filename - to convert untracked file to tracked files and adds to staging area.
+3. git commit -m "msg" :- this is used to write commit message and adds to local repo.
+4. git push url :- this is used to push the code from local repo to remote repo.
+
+5. git clone url :- this command used to take a copy of remote repo into local repo.
+
+
+DAY-03
+
+\java Script\
+1.static website: remains same(fixed)
+ex: gb login
+2.Dynamic website
+ram(login) sam Login()
+
+1.variables:
+--python ,java
+--variables are used to the store the data
+--any kind of data
+--variables names
+name="ramya"
+Name="kavya"
+--variables can start with letters,_,$
+--variables cant start with numbers  
+--variables can include letters ,numbers ,_,$
+--Space between two variables words are not allowed 
+#variables
+#Theory--Pratical 
+#lms= Assignments 
+#1:20
+
+Day-04
+[06/01/2025,
+ Monday]
+
+In your browser if we want to reun javaScript file ot the CSS file We must connect those file to html file {important Note}
+
+Interview Questions 
+1. why we use html IN js
+2. importance of DOC file 
+
+---DATA TYPES
+--types of datatypes
+1. premitive 
+-Build In 
+-Immutable
+-they can store only a single values
+  -string
+  -number
+  -Boolean 
+  -undefined
+  -null
+  -symbol data type , and Big integer
+2. non premitive
+--user defined 
+--mutable
+--they can store multiple values
+--objects
+--math,date,json
+
+--Strings
+ -let str11="dinesh"
+  console.log(str1);
+  console.log(typeof(str11));
+
+--let num = 10 
+console.log(num);
+-console.log(typeof(s
+
+--let bool1=
+-- return type of null is object .
+--Undefined (the variables doesnot contain anything, variable is declared but the variable is not in inialized).
+let a;
+console.log(a)
+--bigint any value exceed the range of 
+console.log(2n,typeof(x));
+disadvantage is security.[
+java with high security.[encapsulation]
+
+git init
+--git[add.
+git commit -m "puhsing 
+git remote add origin {GitHub repostery path}
+git push origin {GITHUB REPOSTERY PATH}
+  [JSON.file]
+-----transfer data from clint to servers and server to client we use JSON file.
